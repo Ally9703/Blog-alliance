@@ -1,0 +1,29 @@
+.Ajouter {
+    width: 80%;
+    background-color: #d3e0ea;
+    padding: 30px;
+    margin: auto;
+    border-radius: 5px;
+    text-align: left;
+}
+
+.submit {
+    text-align: right;
+}
+.submit input {
+    border: 0;
+    padding: 10px 15px;
+    background-color: #fb743e;
+    color: white;
+    margin: 5px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+.submit input:disabled {
+    opacity: .3;
+    cursor: not-allowed;
+}
+.submit input:focus,
+.submit input:hover {
+    background-color: #d3450d;
+}

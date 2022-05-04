@@ -1,0 +1,19 @@
+.Navigation {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+.logout {
+    border: 0;
+    padding: 5px 10px;
+    cursor: pointer;
+    transition: .3s;
+    background-color: #fb743e;
+    color: white;
+}
+
+.logout:hover {
+    background-color: #d3450d;
+}
